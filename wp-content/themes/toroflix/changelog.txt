@@ -1,0 +1,39 @@
+### 06.12.2019 - V1.0
+
+    - Initial release
+
+
+### 23.12.2019 - V1.???
+
+	- Fixed: Genres on movies/series/episodes
+
+	- Fixed: CSS General
+
+	- Fixed: Languages
+
+	- Added: Home - Numer of items on lists
+
+### 24.12.2019 - V1.???
+
+	- Fixed: player on series
+
+
+### 26.12.2019 - V1.???
+	
+	- Add attribute allowscreen to iframes
+
+	- Fixed: Numeration on letter pages
+
+
+### 26.12.2019 - V1.???
+
+	- Fixed: Posts per page on movies page
+
+	- Fixed: Number episode on taxonomy season
+
+
+### 31.12.2019 - V1.???
+
+	- Fixed: Series Page
+
+	- Fixed: Trailer Movie

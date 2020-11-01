@@ -1,0 +1,100 @@
+body{direction:rtl;unicode-bidi:embed}
+.MovieListTop,.MovieListSldCn,.RelatedList{direction:ltr}
+.MovieListTop .TPost,.MovieListSldCn .TPost,.RelatedList .TPost{direction:rtl}
+.TPost.A .TPMvCn{margin-left: auto;margin-right: 0;}
+.Search{float: left;}
+.Search input{left: auto;right: 0;}
+.MenuBtn{float: right;margin-left: 20px;margin-right: 0;}
+.Menu li[class*="AAIco-"]>a, .Menu li[class*="fa-"]>a, .menu li[class*="AAIco-"]>a, .menu li[class*="fa-"]>a{padding-left: .5rem;padding-right: 2rem;}
+.Menu li[class*="AAIco-"]:before, .Menu li[class*="fa-"]:before, .menu li[class*="AAIco-"]:before, .menu li[class*="fa-"]:before{left: auto;right: 1.1rem;}
+section>.Top[class*="fa-"]>.Title, section>.Top[class*="AAIco-"]>.Title, article>.Top[class*="fa-"]>.Title, article>.Top[class*="AAIco-"]>.Title{margin-right: 0;margin-left: .5rem;padding-left: 0;padding-right: 2rem;}
+section>.Top[class*="fa-"]:before, section>.Top[class*="AAIco-"]:before, article>.Top[class*="fa-"]:before, article>.Top[class*="AAIco-"]:before{left: auto;right: 0;}
+.MovieListTop .owl-dots, .RelatedList .owl-dots{right: auto;left: 0;}
+.menu-item-has-children>a{padding-right: .5rem !important;padding-left: 1.5rem !important;}
+.menu-item-has-children>a:after{right: auto;left: .5rem;transform: scale(-1, 1);}
+.widget_nav_menu>div>ul{padding-right: 0;}
+.widget_nav_menu>div>ul>li>i:before{left: 1.25rem !important;}
+.widget_nav_menu>div>ul li[class]:before{margin-left: auto;margin-right: -.3rem;}
+.widget_nav_menu>div>ul>li[class*="current"]{border-right: 3px solid transparent;border-left: 0;}
+.widget_nav_menu>div>ul>li.menu-item-has-children>a{padding-right: 2rem!important;padding-left: .5rem!important;}
+.SearchMovies label:before{margin-right: 0;margin-left: .5rem;}
+.Frm-Slct>label{padding-left: 0;padding-right: .5rem;}
+.Button.TPlay:before{float: left;}
+.SrtdBy .List{margin-left: auto;margin-right: -1.5rem;}
+.SrtdBy:after{margin-left: auto;margin-right: -1.3rem;}
+.SrtdBy>span{padding-right: 0;padding-left: .3rem;}
+.widget_categories>ul li{text-align: left;padding-right: 0;padding-left: 1rem;}
+.widget_categories>ul a{padding-left: 2rem;padding-left: 1.2rem;}
+.widget_categories>ul li>a{text-align: right;}
+.widget_categories>ul li>a:before{left: auto;right: 0;}
+.widget_categories>ul li:hover{border-left: 0;border-right: 3px solid transparent;}
+.TPost.C{padding-left: 0;padding-right: 68px;}
+.TPost.C .Image,.TPost.C .Top{left: auto;right: 0;}
+.TPost.C .Top{border-radius: 0 4px 0 4px}
+.TPost .Title, .TPost .Info, .TPost .Info>*{margin-right: 0;margin-left: .4rem;}
+.TPost.C .Title>span{right: auto;left: -3px;}
+.Views:before{margin-left: .2rem;margin-right: 0;}
+.widget_nav_menu li[class*="children"]>a:after{margin-left: 0;margin-right: .5rem;}
+.Result.OptionBx{left: auto;right: 0;}
+.MovieList.Alt .TPost.B .TPMvCn{left:auto;right:95%}
+.TPost.B .TPMvCn .Vote{margin-right: -3px;margin-left: .4rem!important;}
+.OptionBx .Optntl span{right: auto;left: 0;}
+.OptionBx p:before{margin-right: 0;margin-left: .3rem;}
+.VideoOptions.open+.BtnOptions:before{margin-left: auto;margin-right: -100%;}
+.VideoOptions>.Top:before{margin-left: 0;margin-right: 1rem;}
+section>.Top>.Title, article>.Top>.Title{margin-right: 0;margin-left: .5rem;}
+.CastList{margin-left: 0;margin-right: -.625rem;}
+.TPost .Description .CastList a{padding-left: 0;padding-right: 1.25rem;}
+.TPost .Description .CastList li:before{left: 0;right: .625rem;}
+.Button.TPlay{margin-right: 0;}
+.ListOptions>li{margin-right: 0;margin-left: 10px;}
+.ListOptions>li:first-child{margin-left: 0;}
+p.logged-in-as{float: left;}
+.wp-pagenavi a.previouspostslink:before,.prev.page-numbers:before{content:'\e315'}
+.wp-pagenavi a.nextpostslink:before,.next.page-numbers:before{content:'\e314'}
+.TPTblCnMvs th:first-child, .TPTblCnMvs th:nth-child(2), .TPTblCnMvs td:first-child, .TPTblCnMvs td:nth-child(2), .TPTblCnMvs td:nth-child(3){text-align: right;}
+.TPTblCn td.MvTbImg{padding-right: 20px;padding-left: 0;}
+
+/*(min-width:48em)*/
+@media screen and (min-width:48em){
+    .TPost.Single .Image{float: right;margin-right: 0;margin-left: 1.5rem;}    
+    .PlayMovie,.PlayMovie:before{right:570px;left:0;}
+    .PlayMovie:before{right:0}
+}
+/*(min-width:62em)*/
+@media screen and (min-width:62em){
+    .Header .Logo,.Menu, .Menu>ul>li{float: right;}
+    .menu-item-has-children:after{left: auto;right: 1.5rem;}
+    .SrtdBy{right: auto;left: -.8rem;}
+    .TpRwCont:not(.NoSdbr){direction: ltr!important}
+    .TpRwCont>main, .TpRwCont>aside{direction: rtl!important}
+    .TpRwCont.TpLCol:not(.NoSdbr){direction: rtl!important}  
+}
+/*(min-width:62em) and (max-width:70em)*/
+@media screen and (min-width:62em) and (max-width:70em){
+    .TpRwCont:not(.TpLCol):not(.NoSdbr) .MovieList.Alt>li:nth-child(4n-1) .TPMvCn,
+    .TpRwCont:not(.TpLCol):not(.NoSdbr) .MovieList.Alt>li:nth-child(4n) .TPMvCn{right:auto;left:95%}
+    .TpRwCont.NoSdbr .MovieList.Alt>li:nth-child(6n-1) .TPMvCn,
+    .TpRwCont.NoSdbr .MovieList.Alt>li:nth-child(6n) .TPMvCn{right:auto;left:95%}
+}
+/*(min-width:70em) and (max-width:85em)*/
+@media screen and (min-width:70em) and (max-width:85em){
+    .TpRwCont:not(.TpLCol):not(.NoSdbr) .MovieList.Alt>li:nth-child(5n-1) .TPMvCn,
+    .TpRwCont:not(.TpLCol):not(.NoSdbr) .MovieList.Alt>li:nth-child(5n) .TPMvCn{right:auto;left:95%}
+    .TpRwCont.NoSdbr .MovieList.Alt>li:nth-child(7n-1) .TPMvCn,
+    .TpRwCont.NoSdbr .MovieList.Alt>li:nth-child(7n) .TPMvCn{right:auto;left:95%}
+}
+/*(min-width:85em) and (max-width:100em)*/
+@media screen and (min-width:85em) and (max-width:100em){
+    .TpRwCont:not(.TpLCol):not(.NoSdbr) .MovieList.Alt>li:nth-child(6n-1) .TPMvCn,
+    .TpRwCont:not(.TpLCol):not(.NoSdbr) .MovieList.Alt>li:nth-child(6n) .TPMvCn{right:auto;left:95%}
+    .TpRwCont.NoSdbr .MovieList.Alt>li:nth-child(8n-1) .TPMvCn,
+    .TpRwCont.NoSdbr .MovieList.Alt>li:nth-child(8n) .TPMvCn{right:auto;left:95%}
+}
+/*(min-width:100em)*/
+@media screen and (min-width:100em){
+    .TpRwCont:not(.TpLCol):not(.NoSdbr) .MovieList.Alt>li:nth-child(8n-1) .TPMvCn,
+    .TpRwCont:not(.TpLCol):not(.NoSdbr) .MovieList.Alt>li:nth-child(8n) .TPMvCn{right:auto;left:95%}
+    .TpRwCont.NoSdbr .MovieList.Alt>li:nth-child(10n-1) .TPMvCn,
+    .TpRwCont.NoSdbr .MovieList.Alt>li:nth-child(10n) .TPMvCn{right:auto;left:95%}
+}
